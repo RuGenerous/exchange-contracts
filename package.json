@@ -1,5 +1,5 @@
 {
-  "name": "@pangolindex/exchange-contracts",
+  "name": "@rugenerous/exchange-contracts",
   "devDependencies": {
     "@eth-optimism/smock": "^1.1.9",
     "@nomiclabs/hardhat-ethers": "^2.0.2",
@@ -22,16 +22,17 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "hardhat-tracer": "^1.0.0-alpha.5"
   },
   "version": "1.0.2",
-  "description": "Contracts for the Pangolin Dex.",
+  "description": "Contracts for the Rugenerous Dex.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/pangolindex/exchange-contracts.git"
+    "url": "git+ssh://git@github.com/rugenerous/exchange-contracts.git"
   },
-  "author": "Connor Daly <connor.daly@avalabs.org>",
+  "author": "Camden Grieh",
   "license": "MIT",
   "scripts": {
     "precompile": "rimraf ./build/",
@@ -44,7 +45,7 @@
     "prepublishOnly": "yarn test"
   },
   "bugs": {
-    "url": "https://github.com/pangolindex/exchange-contracts/issues"
+    "url": "https://github.com/rugenerous/exchange-contracts/issues"
   },
-  "homepage": "https://pangolin.exchange"
+  "homepage": "https://rugenerous.exchange"
 }

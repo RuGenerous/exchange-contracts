@@ -4,7 +4,7 @@ pragma solidity >=0.5.0;
 
 import './SafeERC20Namer.sol';
 
-// produces names for pairs of tokens using Pangolin's naming scheme
+// produces names for pairs of tokens using rugenerous's naming scheme
 library PairNamer {
     string private constant TOKEN_SYMBOL_PREFIX = 'RLP:';
     string private constant TOKEN_SEPARATOR = ':';
