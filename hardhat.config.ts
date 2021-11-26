@@ -5,6 +5,7 @@ import "hardhat-gas-reporter";
 import "hardhat-tracer";
 import { task, HardhatUserConfig } from "hardhat/config";
 import "ts-node/register";
+import "@nomiclabs/hardhat-etherscan";
 require('dotenv').config()
 
 // This is a sample Hardhat task. To learn how to create your own go to
@@ -116,6 +117,9 @@ const config: HardhatUserConfig = {
       chainId: 43114,
       accounts: [deployer]
     }
+  },
+  etherscan: {
+    apiKey: process.env.ETHERSCAN_API,
   },
   contractSizer: {
     alphaSort: false,
