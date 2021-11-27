@@ -26,7 +26,7 @@
     "dotenv": "^10.0.0",
     "hardhat-tracer": "^1.0.0-alpha.5"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Contracts for the Rugenerous Dex.",
   "main": "index.js",
   "repository": {
