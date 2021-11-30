@@ -22,7 +22,7 @@ library RuggyLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'40231f6b438bce0797c9ada29b718a87ea0a5cea3fe9a771abdd76bd41a3e545' // init code hash
+                hex'a4cab8d17b7475a92d25aae2396b15b999c2b0bc3ddfcce13856d2fe902f3999' // init code hash
             ))));
     }
 
